@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+}
+img{
+    width: 90px;
+    height: 80px;
+    margin-top:5px;
+    margin-right: 10px;
+
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+    width: 490px;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+input{
+
+    border-bottom-color: grey;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    
+}
+button{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin:auto;
+    height: 400px;
+    width: 600px;
+    background-color: white;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    background-color: white;
+}
+.subContainer{
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+#text{
+    margin-top: 10px;
+    width: 50%;
+}
+#form{
+    text-align: center;
+    width: 50%
+}
+.button{
+    text-align: center;
+    width: 100%;
+    height: 20%;
+}
+#text{
+    margin-left: 10px;
+}
+#form{
+    margin-left: 10px;
+    margin-top: 80px;
+}
+button:hover{
+    animation: send 300ms infinite alternate;
+}
+@keyframes send {
+    from{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    }
+    to{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    }
+}
